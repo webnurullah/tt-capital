@@ -123,9 +123,6 @@
         width: 164px;
         height: 25px;
     }
-    .header-scroll{
-        padding: 36px 36px;
-    }
     .logo {
         margin-top: 70px;
         width: 300px;
@@ -154,7 +151,10 @@
       
         padding-bottom: 180px;
     }
-   
+    .hero-left .sub-title{
+        position: relative;
+        left: 0px;
+    }
     .contnet-section .img-part {
         width: 100%;
     }

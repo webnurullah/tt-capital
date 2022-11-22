@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Century-Gothic';
+    src: url('../fonts/Century-Gothic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Century Gothic bold';
+    src: url('../fonts/CenturyGothicPro-Bold.otf') format('truetype');
+}
+body{
+    font-family: Century-Gothic;
+}
 .header-scroll{
     padding: 36px 60px;
     background-color: #3f475b;
@@ -28,7 +39,7 @@
     height: 28px;
 }
 .hero-section{
-    background: url(../images/hero-banner.png) no-repeat center right;
+    background: url(../images/hero-banner.svg) no-repeat center right;
     background-size: cover;
     padding-bottom: 220px;
     position: relative;
@@ -63,6 +74,7 @@
     font-weight: bold;
     color: #fff;
     line-height: 60px;
+    margin-top: 20px;
 }
 .logo{
     margin-top: 100px;
@@ -85,6 +97,10 @@
 .hero-right-text a{
     color: #8e7b6a;
 }
+.hero-left .sub-title{
+    position: relative;
+    left: -20px;
+}
 .hero-left .sub-title span{
     font-size: 10px;
     line-height: 12px;
@@ -106,6 +122,7 @@
    
 }
 .contnet-section .content-part .number span{
+    font-family:Century Gothic bold ;
     font-size: 120px;
     color: #373e51;
     font-weight: bold;
@@ -135,6 +152,7 @@
     border: none;
  }
 .contnet-section .content-part .title h2{
+    font-family:Century Gothic bold ;
     font-size: 36px;
     color: #373e51;
     font-weight: bold;
